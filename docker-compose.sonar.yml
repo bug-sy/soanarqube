@@ -1,0 +1,8 @@
+version:  '3'
+services:
+    sonarqube:
+        container_name:  sonarqubecoverage
+        image:  sonarqube:latest
+        ports:
+            -  "9001:9001"
+            -  "9093:9093"
